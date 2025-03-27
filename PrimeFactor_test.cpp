@@ -2,6 +2,12 @@
 
 using namespace std;
 
+int main()
+{
+	::testing::InitGoogleMock();
+	return RUN_ALL_TESTS();
+}
+
 #if 0 
 TEST(AccountTest, AccountT1)
 {
